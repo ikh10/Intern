@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(122, 119, 125);
+            display: flex;
+            height: 100vh;
+        }
+
+        .box{
+            width: 350px;
+            height: 400px;
+            padding: 5px;
+            overflow: hidden;
+            
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .img{
+            overflow: hidden;
+        }
+
+        .content{
+            padding: 30px solid black;
+            padding: 10px;
+            text-align: justify;
+            background-color: white;
+            transition: all 2s;
+        }
+
+        .box:hover .content{
+            transform: translateY(-200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="mou.jpeg" alt="">
+        <div class="content">
+            <h1>hover trial</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt in at, dolore fugit voluptatibus tempora soluta! Beatae repellat ad cumque. Alias dignissimos odit maxime magni? Nostrum, architecto! Ipsum, totam odit!</p>
+        </div>
+    </div>
+</body>
+</html>
