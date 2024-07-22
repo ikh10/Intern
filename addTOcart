@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddToCart</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .box{
+            display: inline-block;
+            width:23%;
+            height: 400px;
+            margin: 50px;
+            border: 2px solid rgb(203, 198, 198);
+        }
+        .upper{
+            height: 65%;
+        }
+        .lower{
+            height: 35%;
+            text-align: center;
+            line-height: 30px;
+            font-size: 13px;
+        }
+        img{
+            height: 100%;
+            width:100%;
+        }
+        button{
+            height: 40px;
+            width: 100%;
+            margin-top: 10px;
+            background: #63f863;color: black;
+            font-size: larger;
+        }
+        button:hover{
+            background-color: rgb(215, 251, 215);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div><div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div><div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div><div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div><div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div><div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="upper">
+            <img src="https://images.meesho.com/images/products/233830224/jbzp9_512.webp" alt="">
+        </div>
+        <div class="lower">
+            <h1>Title: Shoes</h1>
+            <h1>Price: 405</h1>
+            <h1>Description: Shoes for Men</h1>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
